@@ -1,0 +1,41 @@
+
+@media (max-width: 740px) {
+    .s-col-full {
+        width: 100%;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #header .mobile-menu-btn {
+        display: block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #content .member-avg {
+        margin-top: 30px;
+        width: 100%;
+    }
+    #content .content-heading {
+        margin-left: 90px;
+    }
+    .ta-btn:not(:last-child) {
+        margin-right: 15px;
+    }
+    .navi-auto div {
+        padding: 4px;
+    }
+    .comics-end {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    .footer-end {
+        padding: 200px 16px;
+    }
+}
